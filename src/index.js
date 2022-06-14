@@ -13,7 +13,7 @@ const questions = [
 		name: 'description',
 	},
 	{
-		type: 'list',
+		type: 'checkbox',
 		message: 'Please select the content you would like to go to:',
 		name: 'content',
 		choices: [
@@ -68,8 +68,13 @@ const questions = [
 
 const init = async () => {
 	const answers = await inquirer.prompt(questions);
+	const contents = answers.content;
+	const generateContentList = contents.map((content) => {
+		return ` - [${content}](#${content})`;
+	});
+
 	// return data;
-	const md = generateReadme(answers);
+	const md = generateReadme(answers, generateContentList);
 
 	fs.writeFileSync('./generatedReadme.md', md);
 };

@@ -1,17 +1,10 @@
-const generateReadme = (answers) => {
+const generateReadme = (answers, generateContentList) => {
 	console.log(answers);
 	return `# ${answers.title} ![${answers.license}](https://img.shields.io/badge/${answers.license}-License-green)
 
     ## Table of Contents
     
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
-    
+ ${generateContentList}
     ## Description
     
     ${answers.description}
