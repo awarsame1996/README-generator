@@ -23,7 +23,7 @@ const questions = [
 			'License',
 			'Contribution',
 			'Tests',
-			'Contact Me',
+			'Contact',
 		],
 	},
 	{

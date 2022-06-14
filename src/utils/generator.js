@@ -35,7 +35,7 @@ const generateReadme = (answers, generateContentList) => {
     
     
     
-    ## Questions
+    ## Contact
     
     Please contact me on my email: ${answers.email}
     
