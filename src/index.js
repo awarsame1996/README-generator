@@ -70,7 +70,7 @@ const init = async () => {
 	const answers = await inquirer.prompt(questions);
 	const contents = answers.content;
 	const generateContentList = contents.map((content) => {
-		return ` - [${content}](#${content})`;
+		return `[${content}](#${content}) <br>`;
 	});
 
 	// return data;

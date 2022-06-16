@@ -2,9 +2,10 @@ const generateReadme = (answers, generateContentList) => {
 	console.log(answers);
 	return `# ${answers.title} ![${answers.license}](https://img.shields.io/badge/${answers.license}-License-green)
 
-    ## Table of Contents
+    #Table of Contents
     
- ${generateContentList}
+-  ${generateContentList}
+
     ## Description
     
     ${answers.description}
@@ -12,15 +13,16 @@ const generateReadme = (answers, generateContentList) => {
     ## Installation
     
     Please follow the instructions below:
+
+    ${answers.installation}
     
-  
     
     ## Usage
     
     Please follow the instructions below:
     
+${answers.usage}
 
-    
     ## License
     
     ${answers.license} License
@@ -33,6 +35,8 @@ const generateReadme = (answers, generateContentList) => {
     
     Please follow the instructions below:
     
+    ${answers.usage}
+
     
     
     ## Contact
