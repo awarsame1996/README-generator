@@ -12,7 +12,7 @@
 
 ## Description
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+This task involved using the terminal to create a professional read.me.
 
 ## Installation
 
@@ -46,6 +46,10 @@ npm run test
 
 ## Screenshots/ video
 
+You can watch a walkthrough video on here[here](https://drive.google.com/file/d/15XEKrtkg1C9VhOqb_wmJSqBT1LkSIyXt/view?usp=sharing)
+
 ## Contact Me
 
 You can reach me on [abdilatifwarsame@gmail.com](abdilatifwarsame@gmail.com)
+
+visit my github [here](https://github.com/awarsame96)
